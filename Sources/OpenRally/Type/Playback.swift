@@ -1,7 +1,7 @@
 import Foundation
 
 @available(macOS 11, iOS 14, *)
-enum PlaybackType {
+public enum PlaybackType {
     
     /// Plays all animations together.
     case parralel

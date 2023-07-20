@@ -1,14 +1,14 @@
-import Foundation
+import SwiftUI
 
 @available(macOS 11, iOS 14, *)
-enum Spring: Easing {
+public enum Spring: Easing {
     case slow
     case basic
     case small
     case medium
     case large
     case quick
-    var animation: Animation {
+    public var animation: Animation {
         return .default
     }
 }
